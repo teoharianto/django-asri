@@ -1,1 +1,1 @@
-web: gunicorn candra-asri.wsgi --log-file=- 
+web: gunicorn app.wsgi --log-file=- 
