@@ -1,0 +1,131 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Assign Future Role {% endblock %} 
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <div class="pcoded-content">
+        <div class="pcoded-inner-content">
+            <!-- [ breadcrumb ] start -->
+            <div class="page-header">
+                <div class="page-block">
+                    <div class="row align-items-center">
+                        <div class="col-md-12">
+                            <div class="page-header-title">
+                                <h5 class="m-b-10">Assign Future Role</h5>
+                            </div>
+                            <ul class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/"><i class="feather icon-home"></i></a></li>
+                                <li class="breadcrumb-item"><a href="javascript:">Assign Future Role</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- [ breadcrumb ] end -->
+            <div class="col-xl-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>List Karyawan</h5>
+                    </div>
+                    <div class="card-block table-border-style text-center">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Nama</th>
+                                        <th>File JF</th>
+                                        <th>Current Role</th>
+                                        <th>Current Job Family</th>
+                                        <th>Future Role</th>
+                                        <th>Future Job Family</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="emp-assign-future-role.html">Murdoko</a></td>
+                                        <td>JFReport090120</td>
+                                        
+                                        <td>SIP</td>
+                                        <td>PR</td>
+                                        
+                                        <td class = "select"> 
+                                            <select>
+                                                    <option value="GMP">SIP</option> 
+                                                    <option value="GMP">SII</option>
+                                                    <option value="SMI">SMI</option>       
+                                                    <option value="SMP">SMP</option>
+                                            </select>
+                                        </td>
+                                        <td class = "select"> 
+                                            <select>        
+                                                    <option value="PR">PR</option>
+                                                    <option value="PR">CA</option>
+                                            </select>
+                                        </td>
+                                        <td><a href="#!" class="label theme-bg text-white f-12">Proses</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="emp-assign-future-role.html">Heri</a></td>
+                                        <td>JFReport090120</td>
+                                        
+                                        <td>SIP</td>
+                                        <td>PR</td>
+                                        
+                                        
+                                        <td class = "select"> 
+                                            <select>        
+                                                <option value="GMP">SIP</option> 
+                                                <option value="GMP">SII</option>
+                                                <option value="SMI">SMI</option>       
+                                                <option value="SMP">SMP</option>
+                                            </select>
+                                        </td>
+                                        <td class = "select"> 
+                                            <select>        
+                                                    <option value="PR">PR</option>
+                                            </select>
+                                        </td>
+                                        <td><a href="#!" class="label theme-bg text-white f-12">Proses</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="emp-assign-future-role.html">Fitri</a></td>
+                                        <td>JFReport090120</td>
+                                        
+                                        <td>SIP</td>
+                                        <td>PR</td>
+                                        
+                                        
+                                        <td class = "select"> 
+                                            <select>        
+                                                <option value="GMP">SIP</option> 
+                                                <option value="GMP">SII</option>
+                                                <option value="SMI">SMI</option>       
+                                                <option value="SMP">SMP</option>
+                                            </select>
+                                        </td>
+                                        <td class = "select"> 
+                                            <select>        
+                                                <option value="PR">PR</option>
+                                                <option value="PR">CA</option>
+                                            </select>
+                                        </td>
+                                        <td><a href="#!" class="label theme-bg text-white f-12">Proses</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
